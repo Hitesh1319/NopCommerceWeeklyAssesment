@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Cases" verbose="1">
+    <listeners>
+        <listener class-name="NopCommerceDemo.Reports.Listeners"/>
+    </listeners>
+
+    <test name="Verify that user is able to search customers">
+        <parameter name="browserName" value="Chrome"></parameter>
+        <parameter name="testRunId1" value="TC-1"/>
+        <classes>
+            <class name="NopCommerceDemo.Test.UserRegisterTest"/>
+        </classes>
+    </test>
+
+</suite>
