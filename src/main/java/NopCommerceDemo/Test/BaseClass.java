@@ -31,7 +31,7 @@ public class BaseClass {
         }
     }
 
-    @AfterClass
+   // @AfterClass
     public static void close() {
         driver.quit();
     }
