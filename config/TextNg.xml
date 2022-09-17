@@ -4,13 +4,13 @@
         <listener class-name="NopCommerceDemo.Reports.Listeners"/>
     </listeners>
 
-<!--    <test name="Verify that user is able to add notebook to cart and checkout">-->
-<!--        <parameter name="browserName" value="Chrome"></parameter>-->
-<!--        <parameter name="testRunId1" value="TC-1"/>-->
-<!--        <classes>-->
-<!--            <class name="NopCommerceDemo.Test.VerifyThatUserIsAbleToAddNotebook"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Verify that user is able to add notebook to cart and checkout">
+        <parameter name="browserName" value="Chrome"></parameter>
+        <parameter name="testRunId1" value="TC-1"/>
+        <classes>
+            <class name="NopCommerceDemo.Test.VerifyThatUserIsAbleToAddNotebook"/>
+        </classes>
+    </test>
 
     <test name="Verify that user is able to add cell phone to cart and checkout">
         <parameter name="browserName" value="Chrome"></parameter>
