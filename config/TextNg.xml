@@ -36,4 +36,12 @@
         </classes>
     </test>
 
+    <test name="Verify that user is able to add clothes in cart and checkout">
+        <parameter name="browserName" value="Chrome"></parameter>
+        <parameter name="testRunId5" value="TC-5"/>
+        <classes>
+            <class name="NopCommerceDemo.Test.VerifyThatUserIsAbleToAddClothes"/>
+        </classes>
+    </test>
+
 </suite>
